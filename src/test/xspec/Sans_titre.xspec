@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description xmlns:x="http://www.jenitennison.com/xslt/xspec"
+    stylesheet="../../main/xml/Sans_titre.xsl">
+    <x:scenario label="main">
+        <x:context>
+            <root>
+                <child attr="value">text</child>
+            </root>
+        </x:context>
+        <x:expect label="the same upper-case">
+            <ROOT>
+                <CHILD attr="value">text</CHILD>
+            </ROOT>
+        </x:expect>
+    </x:scenario>
+    <x:scenario label="second">
+        <x:context>
+            <root>
+                <child attr="value">text</child>
+            </root>
+        </x:context>
+        <x:expect label="the text upper-case">
+            <ROOT>
+                <CHILD attr="value">TEXT</CHILD>
+            </ROOT>
+        </x:expect>
+    </x:scenario>
+    <x:scenario label="skipped" pending="not yet implemented"></x:scenario>
+</x:description>
