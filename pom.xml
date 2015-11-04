@@ -71,13 +71,13 @@
                 </dependencies>
                 <configuration>
                     <catalogFile>catalog.xml</catalogFile>
+                    <generateSurefireReport>false</generateSurefireReport>
                 </configuration>
                 <executions>
                     <execution>
                         <phase>test</phase>
                         <goals>
                             <goal>run-xspec</goal>
-                            <goal>generate-surefire</goal>
                         </goals>
                     </execution>
                 </executions>
