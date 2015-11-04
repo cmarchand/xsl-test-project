@@ -21,7 +21,7 @@
         </x:context>
         <x:expect label="the text upper-case">
             <ROOT>
-                <CHILD attr="value">FAKE</CHILD>
+                <CHILD attr="value">text</CHILD>
             </ROOT>
         </x:expect>
     </x:scenario>
