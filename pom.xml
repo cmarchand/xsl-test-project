@@ -33,7 +33,7 @@
         <plugins>
             <plugin>
                 <groupId>com.oxiane.xml</groupId>
-                <artifactId>maven-catalogBuilder-plugin</artifactId>
+                <artifactId>catalogBuilder-maven-plugin</artifactId>
                 <version>1.0-SNAPSHOT</version>
                 <executions>
                     <execution>
