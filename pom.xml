@@ -71,7 +71,7 @@
                 </dependencies>
                 <configuration>
                     <catalogFile>catalog.xml</catalogFile>
-                    <generateSurefireReport>false</generateSurefireReport>
+                    <generateSurefireReport>true</generateSurefireReport>
                 </configuration>
                 <executions>
                     <execution>
