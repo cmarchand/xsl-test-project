@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description xmlns:x="http://www.jenitennison.com/xslt/xspec" stylesheet="../../../../../main/xml/fr/efl/inneo/formattage.xsl">
+    <x:scenario label="Scenario for testing nothing">
+        <x:context>
+            <root></root>
+        </x:context>
+        <x:expect label="Empty html" >
+            <html>
+                <head>
+                    <title>Essai</title>
+                </head>
+                <body></body>
+            </html>
+        </x:expect>
+    </x:scenario>
+    <x:scenario label="Plus compliqué">
+        <x:scenario label="Juste du texte">
+            <x:context>
+                <root>texte</root>
+            </x:context>
+            <x:expect label="TEXTE">
+                <html>
+                    <head>
+                        <title>Essai</title>
+                    </head>
+                    <body>TEXTE</body>
+                </html>
+            </x:expect>
+        </x:scenario>
+        <x:scenario label="Juste un titre">
+            <x:context>
+                <root><h1>texte</h1></root>
+            </x:context>
+            <x:expect label="Titre en majuscule">
+                <html>
+                    <head>
+                        <title>Essai</title>
+                    </head>
+                    <body>
+                        <h1>TEXTE</h1>
+                    </body>
+                </html>
+            </x:expect>
+        </x:scenario>
+    </x:scenario>
+</x:description>
