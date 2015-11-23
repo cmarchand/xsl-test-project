@@ -2,3 +2,4 @@ catalog.xml
 *.xpr
 /target/
 **/*.html
+src/main/resources/saxon-license.lic
