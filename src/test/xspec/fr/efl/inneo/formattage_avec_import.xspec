@@ -5,4 +5,9 @@
         <x:context><particulier><fils>Tente !</fils></particulier></x:context>
         <x:expect label="ajout de l'attribut"><particulier date="..."><fils>Tente !</fils></particulier></x:expect>
     </x:scenario>
+    <x:scenario>
+        <x:label>Label externe</x:label>
+        <x:context><test>blablabla</test></x:context>
+        <x:expect><x:label>La même chose</x:label><test>blablabla</test></x:expect>
+    </x:scenario>
 </x:description>
