@@ -37,7 +37,7 @@
                         <title>Essai</title>
                     </head>
                     <body>
-                        <h1>TEXTE</h1>
+                        <h1>TEXTEs</h1>
                     </body>
                 </html>
             </x:expect>
