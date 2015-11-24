@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description xmlns:x="http://www.jenitennison.com/xslt/xspec"
+    stylesheet="../../../../../main/xml/fr/efl/inneo/formattage_avec_import.xsl">
+    <x:scenario label="Particulier">
+        <x:context><particulier><fils>Tente !</fils></particulier></x:context>
+        <x:expect label="ajout de l'attribut"><particulier date="..."><fils>Tente !</fils></particulier></x:expect>
+    </x:scenario>
+</x:description>
